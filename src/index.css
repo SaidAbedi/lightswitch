@@ -21,7 +21,63 @@ code {
 }
 
 .lightSwitch button {
+  margin-top: 20px;
+  width: 150px;
   padding: 30px 5px;
   border-radius: 10pt;
   font-size: 50pt;
+}
+
+.lightbutton {
+  display: inline;
+  text-align: center;
+}
+.cls-2,
+.cls-3 {
+  stroke: #000;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.cls-3 {
+  stroke-width: 11px;
+}
+.cls-2,
+.cls-3 {
+  fill: none;
+}
+.cls-2 {
+  stroke-width: 5px;
+}
+
+.off {
+  fill: black;
+}
+.on {
+  width: 100px;
+  height: 30px;
+  display: block;
+  animation: mybulb 2s;
+  animation-fill-mode: forwards;
+  fill: black;
+}
+.rays {
+  stroke: black;
+  stroke-width: 11px;
+  opacity: 22px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  animation: myray 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes mybulb {
+  to {
+    fill: yellow;
+  }
+}
+
+@keyframes myray {
+  to {
+    stroke: yellow;
+  }
 }

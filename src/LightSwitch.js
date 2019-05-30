@@ -1,8 +1,8 @@
 import React, { Component } from "react";
+import LightBulb from "./LightBulb";
 
 const lightOn = {
-  width: "100%",
-  backgroundColor: "yellow"
+  width: "100%"
 };
 const lightOff = {
   width: "100%",
@@ -16,7 +16,6 @@ class LightSwitch extends Component {
 
   handleClick = () => {
     this.setState({ lightSetting: !this.state.lightSetting });
-    console.log(this.state.lightSetting);
   };
 
   render() {
@@ -25,11 +24,14 @@ class LightSwitch extends Component {
         className="lightSwitch"
         style={this.state.lightSetting ? lightOn : lightOff}
       >
-        {this.state.lightSetting ? (
-          <button onClick={this.handleClick}>ON</button>
-        ) : (
-          <button onClick={this.handleClick}>OFF</button>
-        )}
+        <div className="lightbutton">
+          <LightBulb lightSetting={this.state.lightSetting} />
+          {this.state.lightSetting ? (
+            <button onClick={this.handleClick}>ON</button>
+          ) : (
+            <button onClick={this.handleClick}>OFF</button>
+          )}
+        </div>
       </div>
     );
   }
