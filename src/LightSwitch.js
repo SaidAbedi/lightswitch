@@ -29,8 +29,8 @@ class LightSwitch extends Component {
         className="lightSwitch"
         style={this.state.lightSetting ? lightOn : lightOff}
       >
-        <LightBulb lightSetting={this.state.lightSetting} />
         <div className="lightbutton">
+          <LightBulb lightSetting={this.state.lightSetting} />
           <button
             className={this.state.lightSetting ? "buttonOn" : "buttonOff"}
             onClick={this.handleOnClick}
