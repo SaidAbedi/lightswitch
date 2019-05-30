@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.lightSwitch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vh;
+  height: 100vh;
+}
+
+.lightSwitch button {
+  padding: 30px 5px;
+  border-radius: 10pt;
+  font-size: 50pt;
+}
