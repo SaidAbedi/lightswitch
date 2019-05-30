@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/lightswitch/static/css/main.f6071736.chunk.css",
-    "main.js": "/lightswitch/static/js/main.5fddba0d.chunk.js",
-    "main.js.map": "/lightswitch/static/js/main.5fddba0d.chunk.js.map",
+    "main.css": "/lightswitch/static/css/main.57d902e5.chunk.css",
+    "main.js": "/lightswitch/static/js/main.221ec2e9.chunk.js",
+    "main.js.map": "/lightswitch/static/js/main.221ec2e9.chunk.js.map",
     "runtime~main.js": "/lightswitch/static/js/runtime~main.bcb91550.js",
     "runtime~main.js.map": "/lightswitch/static/js/runtime~main.bcb91550.js.map",
-    "static/js/2.9d1832a9.chunk.js": "/lightswitch/static/js/2.9d1832a9.chunk.js",
-    "static/js/2.9d1832a9.chunk.js.map": "/lightswitch/static/js/2.9d1832a9.chunk.js.map",
+    "static/js/2.d6a534e5.chunk.js": "/lightswitch/static/js/2.d6a534e5.chunk.js",
+    "static/js/2.d6a534e5.chunk.js.map": "/lightswitch/static/js/2.d6a534e5.chunk.js.map",
     "index.html": "/lightswitch/index.html",
-    "precache-manifest.772c573bfaf4ed909db7bdca13bfc02f.js": "/lightswitch/precache-manifest.772c573bfaf4ed909db7bdca13bfc02f.js",
+    "precache-manifest.1dc158fae7e4c012a33169ad9bcaf46f.js": "/lightswitch/precache-manifest.1dc158fae7e4c012a33169ad9bcaf46f.js",
     "service-worker.js": "/lightswitch/service-worker.js",
-    "static/css/main.f6071736.chunk.css.map": "/lightswitch/static/css/main.f6071736.chunk.css.map"
+    "static/css/main.57d902e5.chunk.css.map": "/lightswitch/static/css/main.57d902e5.chunk.css.map"
   }
 }
