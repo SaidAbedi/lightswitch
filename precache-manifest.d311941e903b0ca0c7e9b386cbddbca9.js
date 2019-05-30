@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f9913e33186ad2435f5a6cd4e9b650bc",
+    "revision": "55b0c1b2482cc9729cfea4c5c07dc0ee",
     "url": "/lightswitch/index.html"
   },
   {
-    "revision": "780165034526885471c2",
+    "revision": "fb43ddd91e5188ce928a",
     "url": "/lightswitch/static/css/main.57d902e5.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lightswitch/static/js/2.d6a534e5.chunk.js"
   },
   {
-    "revision": "780165034526885471c2",
-    "url": "/lightswitch/static/js/main.221ec2e9.chunk.js"
+    "revision": "fb43ddd91e5188ce928a",
+    "url": "/lightswitch/static/js/main.0ac95d95.chunk.js"
   },
   {
     "revision": "01dcd24b5fb67403da1d",
