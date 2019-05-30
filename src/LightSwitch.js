@@ -2,10 +2,12 @@ import React, { Component } from "react";
 import LightBulb from "./LightBulb";
 
 const lightOn = {
-  width: "100%"
+  width: "100%",
+  heigh: "100vh"
 };
 const lightOff = {
   width: "100%",
+  height: "100vh",
   backgroundColor: "black"
 };
 
