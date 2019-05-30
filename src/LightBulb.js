@@ -85,7 +85,7 @@ class LightBulb extends Component {
               data-name="&lt;Path&gt;"
               className={this.props.lightSetting ? "rays" : "cls-3"}
               d="M302 168.6h19.5"
-              transform="translate(-41.5 -26.1)"
+              transform="translate(-41.5 -26.1) "
             />
           </g>
         </svg>
