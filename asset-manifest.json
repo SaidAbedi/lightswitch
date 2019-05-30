@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/lightswitch/static/css/main.57d902e5.chunk.css",
-    "main.js": "/lightswitch/static/js/main.0ac95d95.chunk.js",
-    "main.js.map": "/lightswitch/static/js/main.0ac95d95.chunk.js.map",
+    "main.js": "/lightswitch/static/js/main.061b6f89.chunk.js",
+    "main.js.map": "/lightswitch/static/js/main.061b6f89.chunk.js.map",
     "runtime~main.js": "/lightswitch/static/js/runtime~main.bcb91550.js",
     "runtime~main.js.map": "/lightswitch/static/js/runtime~main.bcb91550.js.map",
     "static/js/2.d6a534e5.chunk.js": "/lightswitch/static/js/2.d6a534e5.chunk.js",
     "static/js/2.d6a534e5.chunk.js.map": "/lightswitch/static/js/2.d6a534e5.chunk.js.map",
     "index.html": "/lightswitch/index.html",
-    "precache-manifest.d311941e903b0ca0c7e9b386cbddbca9.js": "/lightswitch/precache-manifest.d311941e903b0ca0c7e9b386cbddbca9.js",
+    "precache-manifest.6ae40d32524e38fa8416f3f24f2d8705.js": "/lightswitch/precache-manifest.6ae40d32524e38fa8416f3f24f2d8705.js",
     "service-worker.js": "/lightswitch/service-worker.js",
     "static/css/main.57d902e5.chunk.css.map": "/lightswitch/static/css/main.57d902e5.chunk.css.map"
   }
