@@ -1,12 +1,11 @@
 import React, { Component } from "react";
-import { TimelineLite } from "gsap/TweenMax";
 
 class LightBulb extends Component {
   render() {
     return (
       <div>
         <svg
-          width="400px"
+          width="350px"
           id="Capa_1"
           data-name="Capa 1"
           xmlns="http://www.w3.org/2000/svg"

@@ -21,16 +21,32 @@ code {
 }
 
 .lightSwitch button {
-  margin-top: 20px;
-  width: 150px;
+  display: block;
+  width: 120px;
   padding: 30px 5px;
+  border: 1px rgb(138, 138, 138) solid;
   border-radius: 10pt;
-  font-size: 50pt;
+  font-size: 40pt;
+  margin: 0px 0;
 }
 
 .lightbutton {
   display: inline;
   text-align: center;
+  background: rgb(237, 237, 237);
+  padding: 20px 20px;
+  border: 1px black solid;
+  border-radius: 10px;
+  margin: 0 20px;
+}
+
+.buttonOn {
+  background: rgb(215, 215, 215);
+  transform: scale(1);
+}
+.buttonOff {
+  background: #fff;
+  transform: scale(0.8);
 }
 .cls-2,
 .cls-3 {
@@ -52,6 +68,7 @@ code {
 .off {
   fill: black;
 }
+
 .on {
   width: 100px;
   height: 30px;

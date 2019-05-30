@@ -14,8 +14,11 @@ class LightSwitch extends Component {
     lightSetting: false
   };
 
-  handleClick = () => {
-    this.setState({ lightSetting: !this.state.lightSetting });
+  handleOnClick = () => {
+    this.setState({ lightSetting: true });
+  };
+  handleOffClick = () => {
+    this.setState({ lightSetting: false });
   };
 
   render() {
@@ -24,13 +27,20 @@ class LightSwitch extends Component {
         className="lightSwitch"
         style={this.state.lightSetting ? lightOn : lightOff}
       >
+        <LightBulb lightSetting={this.state.lightSetting} />
         <div className="lightbutton">
-          <LightBulb lightSetting={this.state.lightSetting} />
-          {this.state.lightSetting ? (
-            <button onClick={this.handleClick}>ON</button>
-          ) : (
-            <button onClick={this.handleClick}>OFF</button>
-          )}
+          <button
+            className={this.state.lightSetting ? "buttonOn" : "buttonOff"}
+            onClick={this.handleOnClick}
+          >
+            ON
+          </button>
+          <button
+            className={this.state.lightSetting ? "buttonOff" : "buttonOn"}
+            onClick={this.handleOffClick}
+          >
+            OFF
+          </button>
         </div>
       </div>
     );
